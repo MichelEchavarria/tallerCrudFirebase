@@ -28,3 +28,7 @@ nav a:hover {
 .error {
   color: red;
 }
+
+.login {
+  border: 1px solid #000;
+}

@@ -71,7 +71,7 @@ let arregloClientes = [];
   };
 
   function confirmarEliminar(event) {
-    if(event.target.classList.contains('eliminar')) {
+    if(event.target.classList.contains('eliminar','btn','btn-danger','btn-sm')) {
       // console.log(event.target.dataset.cliente);
       // Capturamos el id del cliente
       const clienteId = event.target.dataset.cliente;
